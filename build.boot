@@ -10,7 +10,7 @@
          '[boot.git         :refer [last-commit]])
 
 (def project 'oconn/fsm)
-(def +version+ "0.0.1-SNAPSHOT")
+(def +version+ "0.1.0-SNAPSHOT")
 
 (task-options!
  pom {:project     project
